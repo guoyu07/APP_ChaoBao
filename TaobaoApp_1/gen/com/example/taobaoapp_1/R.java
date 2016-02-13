@@ -25,44 +25,61 @@ public final class R {
         public static final int b=0x7f020001;
         public static final int c=0x7f020002;
         public static final int d=0x7f020003;
-        public static final int dot_focused=0x7f020004;
-        public static final int dot_normal=0x7f020005;
-        public static final int e=0x7f020006;
-        public static final int ic_action_search=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int p1=0x7f020009;
-        public static final int p2=0x7f02000a;
-        public static final int p3=0x7f02000b;
-        public static final int p4=0x7f02000c;
-        public static final int p9=0x7f02000d;
-        public static final int s1=0x7f02000e;
-        public static final int taobao1=0x7f02000f;
-        public static final int taobao2=0x7f020010;
-        public static final int tianbao=0x7f020011;
+        public static final int delete_user=0x7f020004;
+        public static final int dot_focused=0x7f020005;
+        public static final int dot_normal=0x7f020006;
+        public static final int e=0x7f020007;
+        public static final int ic_action_search=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int icon_avatar_login=0x7f02000a;
+        public static final int login_button_nor=0x7f02000b;
+        public static final int login_button_press=0x7f02000c;
+        public static final int login_button_style=0x7f02000d;
+        public static final int login_input=0x7f02000e;
+        public static final int login_more_down=0x7f02000f;
+        public static final int login_more_up=0x7f020010;
+        public static final int p1=0x7f020011;
+        public static final int p2=0x7f020012;
+        public static final int p3=0x7f020013;
+        public static final int p4=0x7f020014;
+        public static final int p9=0x7f020015;
+        public static final int s1=0x7f020016;
+        public static final int taobao1=0x7f020017;
+        public static final int taobao2=0x7f020018;
+        public static final int tianbao=0x7f020019;
     }
     public static final class id {
-        public static final int ItemImage=0x7f080009;
-        public static final int ItemImage1=0x7f08000b;
-        public static final int ItemText=0x7f08000a;
-        public static final int ItemText1=0x7f08000c;
-        public static final int action_settings=0x7f08000d;
-        public static final int dot_0=0x7f080002;
-        public static final int dot_1=0x7f080003;
-        public static final int dot_2=0x7f080004;
-        public static final int dot_3=0x7f080005;
-        public static final int dot_4=0x7f080006;
-        public static final int gridview=0x7f080007;
-        public static final int gridview1=0x7f080008;
-        public static final int title=0x7f080001;
-        public static final int vp=0x7f080000;
+        public static final int ItemImage=0x7f080010;
+        public static final int ItemImage1=0x7f080012;
+        public static final int ItemText=0x7f080011;
+        public static final int ItemText1=0x7f080013;
+        public static final int action_settings=0x7f080014;
+        public static final int dot_0=0x7f080009;
+        public static final int dot_1=0x7f08000a;
+        public static final int dot_2=0x7f08000b;
+        public static final int dot_3=0x7f08000c;
+        public static final int dot_4=0x7f08000d;
+        public static final int gridview=0x7f08000e;
+        public static final int gridview1=0x7f08000f;
+        public static final int login_btnLogin=0x7f080005;
+        public static final int login_edtId=0x7f080002;
+        public static final int login_edtPwd=0x7f080004;
+        public static final int login_linearLayout=0x7f080000;
+        public static final int login_more_user=0x7f080003;
+        public static final int login_txtForgotPwd=0x7f080006;
+        public static final int title=0x7f080008;
+        public static final int userId_LinearLayout=0x7f080001;
+        public static final int vp=0x7f080007;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int item=0x7f030001;
-        public static final int item1=0x7f030002;
+        public static final int activity_login=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int item=0x7f030002;
+        public static final int item1=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;
+        public static final int main_activity__login=0x7f070001;
     }
     public static final class string {
         public static final int _=0x7f050003;
@@ -71,6 +88,7 @@ public final class R {
         public static final int head=0x7f050005;
         public static final int hello_world=0x7f050002;
         public static final int taobao=0x7f050004;
+        public static final int title_activity_main_activity__login=0x7f050006;
     }
     public static final class style {
         /** 

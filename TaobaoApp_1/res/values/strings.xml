@@ -7,5 +7,6 @@
     <string name="_">超宝</string>
     <string name="taobao">TaoBao</string>
     <string name="head">head</string>
+    <string name="title_activity_main_activity__login">MainActivity_Login</string>
 
 </resources>

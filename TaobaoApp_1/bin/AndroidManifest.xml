@@ -13,12 +13,21 @@
         android:icon="@drawable/p1"
         android:label="@string/taobao"
         android:theme="@style/AppBaseTheme" >
+
+        
+        <activity android:name="com.example.taobaoapp_1.MainActivity_Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
         <activity
             android:name="com.example.taobaoapp_1.MainActivity"
             android:label="超宝" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
