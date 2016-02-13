@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaobaoApp_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="_">超宝</string>
+    <string name="taobao">TaoBao</string>
+    <string name="head">head</string>
+
+</resources>
