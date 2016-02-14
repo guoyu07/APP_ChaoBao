@@ -51,7 +51,9 @@
                     android:textColorHint="#999999"
                     android:textSize="18sp" >
 
-                    <requestFocus />
+                    <requestFocus
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
                 </EditText>
 
                 <ImageView
@@ -84,15 +86,31 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/login_btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_button_style"
-            android:text="登陆"
-            android:textColor="#FFFFFF"
-            android:textSize="19sp" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/login_btnLogin"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:background="@drawable/login_button_style"
+                android:onClick="queryDB"
+                android:text="登陆"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/login_btnsign"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:background="@drawable/login_button_style"
+                android:onClick="addValues"
+                android:text="注册"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp" />
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -110,5 +128,13 @@
         android:text="忘记密码"
         android:textColor="#0079FF"
         android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/usersList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+    </ListView>
 
 </LinearLayout>
