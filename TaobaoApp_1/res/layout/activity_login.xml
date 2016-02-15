@@ -31,6 +31,8 @@
                 android:id="@+id/userId_LinearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
                 android:gravity="right"
                 android:orientation="horizontal" >
 
@@ -51,9 +53,6 @@
                     android:textColorHint="#999999"
                     android:textSize="18sp" >
 
-                    <requestFocus
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
                 </EditText>
 
                 <ImageView
@@ -105,6 +104,7 @@
                 android:id="@+id/login_btnsign"
                 android:layout_width="160dp"
                 android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
                 android:background="@drawable/login_button_style"
                 android:onClick="addValues"
                 android:text="注册"

@@ -12,33 +12,39 @@
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:background="#FF4400"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:orientation="horizontal" >
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_margin="1dp"
+                android:id="@+id/saoyisao"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
                 android:onClick="saoyisao"
-                android:src="@drawable/taobao1" />
+                android:src="@drawable/saoyisao" />
 
             <EditText
-                android:layout_width="250dp"
+                android:id="@+id/search"
+                android:layout_width="240dp"
                 android:layout_height="47dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:hint="搜索商品或店铺"
-                android:textSize="20px" />
+                android:singleLine="true"
+                android:textColor="#999999"
+                android:textSize="30px" />
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_marginLeft="130dp"
-                android:src="@drawable/taobao2" />
+                android:id="@+id/xiaoxi"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="15dp"
+                android:onClick="xiaoxi"
+                android:src="@drawable/xiaoxi" />
         </LinearLayout>
 
         <FrameLayout
             android:layout_width="fill_parent"
-            android:layout_height="200dip"
-            android:layout_margin="2dp" >
+            android:layout_height="200dip" >
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/vp"
@@ -63,7 +69,6 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="3dip"
                     android:orientation="horizontal" >
 
                     <View
@@ -111,34 +116,28 @@
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="2dp"
+            android:layout_height="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginTop="10dp"
             android:background="#E4E4F1" >
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="店铺  >>"
-            android:textColor="#E4E4F1" />
-
         <GridView
             android:id="@+id/gridview"
             android:layout_width="fill_parent"
-            android:layout_height="125dp"
+            android:layout_height="150dp"
             android:layout_marginLeft="2dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="2dp"
             android:columnWidth="60dp"
             android:gravity="center"
             android:horizontalSpacing="0dp"
-            android:numColumns="5"
+            android:numColumns="4"
             android:stretchMode="columnWidth"
-            android:verticalSpacing="5dp" />
+            android:verticalSpacing="3dp" />
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="2dp"
+            android:layout_height="5dp"
             android:layout_marginBottom="5dp"
             android:layout_marginTop="10dp"
             android:background="#E4E4F1" >
@@ -153,13 +152,10 @@
         <GridView
             android:id="@+id/gridview1"
             android:layout_width="fill_parent"
-            android:layout_height="650dp"
-            android:layout_marginTop="10dp"
-            android:columnWidth="120dp"
-            android:gravity="center"
-            android:horizontalSpacing="0dp"
+            android:layout_height="1060dp"
+            android:layout_marginTop="3dp"
+            android:columnWidth="200dp"
             android:numColumns="2"
-            android:stretchMode="columnWidth"
             android:verticalSpacing="3dp" />
     </LinearLayout>
 

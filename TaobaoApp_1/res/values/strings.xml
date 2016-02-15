@@ -8,5 +8,8 @@
     <string name="taobao">TaoBao</string>
     <string name="head">head</string>
     <string name="title_activity_main_activity__login">MainActivity_Login</string>
+    <string name="title_activity_main_activity__tuiguang">MainActivity_Tuiguang</string>
+    <string name="title_activity_main_activity__detail">MainActivity_Detail</string>
+    <string name="title_activity_main_activity__baobei_detail">MainActivity_BaobeiDetail</string>
 
 </resources>

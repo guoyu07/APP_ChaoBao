@@ -8,28 +8,38 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/p1"
         android:label="@string/taobao"
         android:theme="@style/AppBaseTheme" >
-
-        
         <activity android:name="com.example.taobaoapp_1.MainActivity_Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        
         <activity
             android:name="com.example.taobaoapp_1.MainActivity"
             android:label="超宝" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.taobaoapp_1.MainActivity_Tuiguang"
+            android:label="@string/title_activity_main_activity__tuiguang" >
+        </activity>
+        <activity
+            android:name="com.example.taobaoapp_1.MainActivity_Detail"
+            android:label="@string/title_activity_main_activity__detail" >
+        </activity>
+        <activity
+            android:name="com.example.taobaoapp_1.MainActivity_BaobeiDetail"
+            android:label="@string/title_activity_main_activity__baobei_detail" >
         </activity>
     </application>
 
